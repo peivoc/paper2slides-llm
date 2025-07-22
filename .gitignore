@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Data files - We might want to ignore large data files
+# If you want to track them, remove the lines below or use Git LFS
+data/raw/
+data/processed/
+data/slides/
+data/training/
+
+# Results
+results/
+result.txt
+
+# OS specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+paper_processing:
+  min_paragraph_length: 50
+  max_paragraph_length: 2000
+  sections_to_extract:
+    - "abstract"
+    - "introduction"
+    - "related work"
+    - "methodology"
+    - "experiments"
+    - "results"
+    - "conclusion"
+  
+slides_generation:
+  output_format: "markdown"  # markdown, json, latex
+  max_slides_per_section: 3
+  slide_types:
+    - "title"
+    - "content"
+    - "figure"
+    - "conclusion"
+  
+quality_control:
+  min_content_length: 20
+  max_content_length: 500
+  filter_duplicates: true

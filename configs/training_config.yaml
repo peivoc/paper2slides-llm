@@ -1,0 +1,20 @@
+training:
+  batch_size: 4
+  learning_rate: 5e-5
+  num_epochs: 3
+  warmup_steps: 500
+  weight_decay: 0.01
+  logging_steps: 100
+  save_steps: 1000
+  eval_steps: 500
+  
+data:
+  train_file: "data/training/train.jsonl"
+  val_file: "data/training/val.jsonl"
+  test_file: "data/training/test.jsonl"
+  max_samples: null  # null表示使用全部資料
+  
+paths:
+  output_dir: "models/paper2slides-finetuned"
+  cache_dir: "models/cache"
+  logs_dir: "experiments/logs"

@@ -1,0 +1,29 @@
+# -- Core Functionality --
+arxiv
+pypdf
+PyYAML
+
+# -- Local Finetuning Core Packages --
+
+# PyTorch (for CUDA support)
+# Please visit https://pytorch.org/get-started/locally/ to get the right command for your specific CUDA version.
+torch
+torchvision
+torchaudio
+
+# Hugging Face Ecosystem
+transformers
+datasets
+peft
+trl
+accelerate
+bitsandbytes
+
+# Dependency Conflict Resolution
+# datasets requires a specific version of fsspec
+fsspec==2024.9.0
+
+# Other Utilities
+sentencepiece
+scipy
+tqdm
