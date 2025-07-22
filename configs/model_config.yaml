@@ -1,7 +1,7 @@
 # Gemini API 金鑰設定
 # 警告：請勿將此檔案上傳到公開的 Git 儲存庫。
 # 請在這裡貼上您新的、安全的 Google AI API 金鑰。
-gemini_api_key: "AIzaSyAgB_IwWWFtik_cHyLYVmqplgSgxaQPmEQ"
+gemini_api_key: ""
 
 # 模型設定
 model_name: "gemini-1.5-flash-latest"
